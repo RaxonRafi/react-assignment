@@ -1,7 +1,8 @@
-import {Container, Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap';
+import {Container, Navbar, Nav } from 'react-bootstrap';
 import './AppNav.css'
 import navLogo from '../../assets/whole.png';
 import searchLogo from '../../assets/baseline-search-24px.png';
+import arrow from '../../assets/baseline-arrow_drop_down-24px.png';
 
 const AppNavbar = () => {
   return (
@@ -22,6 +23,7 @@ const AppNavbar = () => {
           </div>
           <Nav className="ml-auto">
           Create account.<a href="">It’s free!</a> 
+          <img src={arrow} alt="" />
            
           </Nav>
         </Navbar.Collapse>

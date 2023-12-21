@@ -1,5 +1,3 @@
-// Banner.js
-import React from 'react';
 import './Banner.css';
 import { Container, Row, Col } from 'react-bootstrap';
 
@@ -10,8 +8,10 @@ const Banner = () => {
         <Row>
           <Col>
             <div className="overlay">
-              <h1>Computer Engineering</h1>
-              <span>142,765 Computer Engineers follow this</span>
+              <div className="text-div">
+                <h1>Computer Engineering</h1>
+                <span>142,765 Computer Engineers follow this</span>
+              </div>
             </div>
           </Col>
         </Row>

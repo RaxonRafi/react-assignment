@@ -2,4 +2,21 @@
 body{
   margin: 0;
   padding: 0;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+body h1{
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+body span{
+ 
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  
 }

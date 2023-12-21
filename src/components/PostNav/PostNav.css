@@ -1,0 +1,34 @@
+.write-post-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 36px;
+    border-radius: 4px;
+    background-color: #EDEEF0;
+}
+.write-post-btn span{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.join-group-btn{
+    background-color: #2F6CE5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    width: 140px;
+    height: 36px;
+}
+.join-group-btn span{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    
+}
