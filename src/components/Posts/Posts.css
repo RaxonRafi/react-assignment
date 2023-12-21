@@ -69,5 +69,63 @@
     height: 36px;
     border-radius: 2px
 }
+.date-location{
+    display: flex;
+    justify-content: space-between;
+}
+.visit-btn{
+    width: 652px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #A9AEB8 !important;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: red;
 
+}
+.visit-btn2{
+    width: 652px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #A9AEB8 !important;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: green;
+
+}
+.sidebar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.locItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.error-content span{
+
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    line-height: 16px !important;
+    letter-spacing: 0em !important;
+    text-align: left !important;
+
+}
 
